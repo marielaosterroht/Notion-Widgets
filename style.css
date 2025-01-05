@@ -7,7 +7,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #0d1b2a;  /* Dark blue background */
+ background-color: #transparent;
   color: #ffffff;
   position: relative;
   overflow: hidden;
@@ -17,13 +17,12 @@ body {
 #moon-widget {
   text-align: center;
   padding: 30px;
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0.7);  /* Slightly dark background */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+  border-radius: 30px;
+  background-color: #205780;  
+  
   max-width: 350px;
   width: 100%;
-  border: 2px solid #2a3c54;  /* Light border for contrast */
-}
+  
 
 /* Header */
 h1 {
